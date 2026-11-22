@@ -1,0 +1,3 @@
+# このPCのCPUに最適化(最速)。他のPCへ配る場合は下の行を削除してください。
+[build]
+rustflags = ["-C", "target-cpu=native"]
